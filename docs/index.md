@@ -1,3 +1,12 @@
+---
+tags:
+  - HTML5
+  - JavaScript
+  - CSS
+---
+
+...
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org][1].
@@ -14,7 +23,7 @@ For full documentation visit [mkdocs.org][1].
 
 ## Project layout
 
-!!! warning "Merde !"
+!!! warning "Just testing ..."
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -30,7 +39,9 @@ For full documentation visit [mkdocs.org][1].
 ```
 
 ```python
-import Hugo Boss
+from rdkit import Chem
+for i in list():
+    pass
 ```
 
 

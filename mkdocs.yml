@@ -1,6 +1,21 @@
-site_name: DocSchmock's Knowledge Base
+site_name: Max's Knowledge Base
 theme:
   name: material
+  icon:
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css:  fontawesome/brands/css3
+extra:
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
+
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<max.nuellen@novaled.com>
+
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -10,4 +25,15 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   
+  - md_in_html
+
+plugins:
+  - tags:
+      tags_file: tags.md
+
+copyright: Copyright &copy; 2022 - Dr. Max P. Nüllen, p-Side Group, Novaled GmbH
