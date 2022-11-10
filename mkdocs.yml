@@ -1,7 +1,13 @@
 site_name: Max's Knowledge Base
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: amber
+
   icon:
+    logo: material/flask
     tag:
       html: fontawesome/brands/html5
       js: fontawesome/brands/js
@@ -11,6 +17,12 @@ extra:
     HTML5: html
     JavaScript: js
     CSS: css
+  
+
+  features:
+    - navigation.tabs
+    - navigation.top
+
 
   social:
     - icon: fontawesome/solid/paper-plane
@@ -30,7 +42,17 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - md_in_html
+
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 
 plugins:
   - tags:
