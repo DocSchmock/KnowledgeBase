@@ -26,7 +26,7 @@ extra:
 
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:<max.nuellen@novaled.com>
+      link: mailto:<max.nuellen@gmail.com>
 
 
 markdown_extensions:
@@ -58,4 +58,4 @@ plugins:
   - tags:
       tags_file: tags.md
 
-copyright: Copyright &copy; 2022 - Dr. Max P. Nüllen, p-Side Group, Novaled GmbH
+copyright: Copyright &copy; 2022 - Dr. Max P. Nüllen
