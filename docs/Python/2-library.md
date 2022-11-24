@@ -3,6 +3,6 @@
 
     *Well structured quick reference for basic python topics*
 
-- Hugo Boss
+- Some more links go here
 
 [1]:	https://www.pythoncheatsheet.org/ "Python Cheat sheet"
