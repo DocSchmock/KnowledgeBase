@@ -20,8 +20,9 @@ extra:
   
 
   features:
-    - navigation.tabs
+    #- navigation.tabs
     - navigation.top
+    - navigation.indexes
 
 
   social:
@@ -59,3 +60,9 @@ plugins:
       tags_file: tags.md
 
 copyright: Copyright &copy; 2022 - Dr. Max P. Nüllen
+
+#nav:
+#  - Tutorials:
+#    - Tutorials/index.md
+#    - Page 1: Tutorials/1-intro.md
+#    - Page n: Tutorials/2-fitting.md
