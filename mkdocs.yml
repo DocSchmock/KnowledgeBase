@@ -20,9 +20,9 @@ extra:
   
 
   features:
-    #- navigation.tabs
     - navigation.top
     - navigation.indexes
+    - content.code.copy
 
 
   social:

@@ -1,7 +1,8 @@
 # 1-Visualization & Plotting with Matplotlib
 
 ## Format Graphics Origin Style
-![Origin Plot Demo](../../pics/xh8XA.png){ align=left }
+![Origin Plot Demo](../../pics/xh8XA.png)
+
 ```python
     from matplotlib import rcParams, cycler
     import matplotlib.pyplot as plt
