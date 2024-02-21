@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "gandalf.local",
+            "port": 3307,
+            "driver": "MariaDB",
+            "name": "local",
+            "database": "nation",
+            "username": "max",
+            "askForPassword": true
+        }
+    ]
+}

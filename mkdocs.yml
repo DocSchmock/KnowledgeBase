@@ -12,17 +12,16 @@ theme:
       html: fontawesome/brands/html5
       js: fontawesome/brands/js
       css:  fontawesome/brands/css3
+  features:
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
 extra:
   tags:
     HTML5: html
     JavaScript: js
     CSS: css
   
-
-  features:
-    - navigation.top
-    - navigation.indexes
-    - content.code.copy
 
 
   social:
