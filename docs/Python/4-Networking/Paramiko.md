@@ -77,7 +77,20 @@ Here we use [`auth_interactive`](https://docs.paramiko.org/en/stable/api/transpo
 ```py
 transport = paramiko.Transport()
 transport.start_client()
-transport.auth_interactive(username, handler) def handler(self, title, instructions, prompt_list): answers = [] for prompt_, _ in prompt_list: prompt = prompt_.strip().lower() if prompt.startswith('password'): answers.append(PASSWORD) elif prompt.startswith('verification'): answers.append(OTP) else: raise ValueError('Unknown prompt: {}'.format(prompt_)) return answers
+transport.auth_interactive(username, handler)
+
+def handler(self, title, instructions, prompt_list):
+        answers = []
+        for prompt_, _ in prompt_list:
+            prompt = prompt_.strip().lower()
+            if prompt.startswith('password'):
+                answers.append(PASSWORD)
+            elif prompt.startswith('verification'):
+                answers.append(OTP)
+            else:
+                raise ValueError('Unknown prompt: {}'.format(prompt_))
+        return answers
+
 ```
 
 After we have successfully logged into the server by any one of the above-mentioned methods executing the commands is as simple as passing your command to [exec_command](https://docs.paramiko.org/en/2.9/api/client.html#paramiko.client.SSHClient.exec_command).
